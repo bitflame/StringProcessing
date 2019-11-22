@@ -1,0 +1,6 @@
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\bin\Debug\StringProcessing.exe.config
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\bin\Debug\StringProcessing.exe
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\bin\Debug\StringProcessing.pdb
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\obj\Debug\StringProcessing.csprojAssemblyReference.cache
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\obj\Debug\StringProcessing.exe
+C:\Users\usr\source\repos\StringProcessing\StringProcessing\obj\Debug\StringProcessing.pdb
