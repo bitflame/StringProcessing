@@ -1,0 +1,8 @@
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\bin\Debug\netstandard2.0\MyFirstUnitTests.deps.json
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\bin\Debug\netstandard2.0\MyFirstUnitTests.dll
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\obj\Debug\netstandard2.0\MyFirstUnitTests.csprojAssemblyReference.cache
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\obj\Debug\netstandard2.0\MyFirstUnitTests.AssemblyInfoInputs.cache
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\obj\Debug\netstandard2.0\MyFirstUnitTests.AssemblyInfo.cs
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\bin\Debug\netstandard2.0\MyFirstUnitTests.pdb
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\obj\Debug\netstandard2.0\MyFirstUnitTests.dll
+C:\Users\usr\source\repos\StringProcessing\MyFirstUnitTests\obj\Debug\netstandard2.0\MyFirstUnitTests.pdb
