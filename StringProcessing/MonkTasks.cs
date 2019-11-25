@@ -52,7 +52,7 @@ namespace StringProcessing
             //int.TryParse(Console.ReadLine(), out value);
             //int numDays = value;
             string [] tasks = numTasks.Split(' ');
-
+            Dictionary<int, int> mapping = new Dictionary<int, int>();
             int[] inputArray = new int[nDays];
 
             //for (int i = 0; i < nDays; i++)
@@ -74,14 +74,18 @@ namespace StringProcessing
                 //Calculate the binary value of each value in inputArray
                 //arrange the array in nondecreasing order
                 int counter = 0;
+                int temp = inputArray[j];
                 while (inputArray[j] != 0)
                 {
                     inputArray[j] = inputArray[j] & (inputArray[j] - 1);
                     counter++;
                 }
-                outputArray[j] = counter;
+                mapping.Add(temp, counter);
+                //outputArray[j] = counter;
             }
-            Array.Sort(outputArray);
+            mapping.OrderBy(pair=>pair.Key);
+            mapping.Keys.CopyTo(outputArray,0);
+            //Array.Sort(outputArray);
             return outputArray;
         }
     }
