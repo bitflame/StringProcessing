@@ -16,7 +16,7 @@ namespace DemoLibrary.Tests
         public void NonDecreasingTaskList_InputValidation()
         {
             //Arrange
-            int[] expected = { 2, 5, 3, 7, 4 };
+            int[] expected = { 4, 3, 10, 7 };
 
             //Act 
             MonkTasks mT = new MonkTasks();

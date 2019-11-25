@@ -80,12 +80,14 @@ namespace StringProcessing
                     inputArray[j] = inputArray[j] & (inputArray[j] - 1);
                     counter++;
                 }
+                //Dictionary of <key, value> pairs 
                 mapping.Add(temp, counter);
                 //outputArray[j] = counter;
             }
-            mapping.OrderBy(pair=>pair.Key);
-            mapping.Keys.CopyTo(outputArray,0);
-            //Array.Sort(outputArray);
+            var dict = mapping.OrderByDescending(pair => pair.Value).ToArray();
+            var dict2 = mapping.OrderBy(pair => pair.Value).ToArray();
+            //int[] keys = infos.Where(kvp => kvp.Value == "Sur").Select(kvp => kvp.Key).ToArray();
+            outputArray = dict2.Select(kvp => kvp.Key).ToArray();
             return outputArray;
         }
     }
